@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar cita</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="js/datos.js"></script>
+</head>
+<body class="fondo1">
+    <br>
+    <br>
+    <h1 class="ejemplo">Agendar citas</h1>
+    <br>
+    <br>
+    <br>
+    <!--Contenedor-->
+    <div class="container">
+        <!--Fila-->
+        <div class="row">
+            <!--Columna-->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" method="">
+                            <div class="form-group">
+                                <label for="nombre">Nombres</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombres completos">
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Nombre de mascota</label>
+                                <input type="text" class="form-control" id="nombre_mascota" name="nombre_mascota" placeholder="Nombre completo de la mascota">
+                            </div>
+                            <div class="form-group">
+                                <label for="edad">Edad</label>
+                                <input type="number" class="form-control" id="edad" name="edad" placeholder="Edad de la mascota">
+                            </div>
+                            <div class="form-group">
+                                <label for="fecha">Fecha</label>
+                                <input type="date" class="form-control" id="fecha" name="fecha">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="button" onclick="recibir_datos()" class="btn btn-secondary" value="Enviar">
+                                <input type="reset" class="btn btn-info" value="Borrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

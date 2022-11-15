@@ -1,0 +1,10 @@
+body
+{
+    background-image: url('../imagenes/Peluqueria\ Canina.jpg');
+}
+nav ul {
+	background-color: #757575;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
